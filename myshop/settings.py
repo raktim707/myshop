@@ -29,9 +29,9 @@ ALLOWED_HOSTS = []
 
 #Braintree Settings
 
-BRAINTREE_MERCHANT_ID = 'b8rn2mrz5qngphfk'
-BRAINTREE_PUBLIC_KEY = 'z936p6pgmkmygsjc'
-BRAINTREE_PRIVATE_KEY = '136b15b2d1f74c29992b411fb7443b9c'
+BRAINTREE_MERCHANT_ID = '<YourID>'
+BRAINTREE_PUBLIC_KEY = '<YourKey>'
+BRAINTREE_PRIVATE_KEY = '<YourKey>'
 
 import braintree
 BRAINTREE_CONF = braintree.Configuration(
